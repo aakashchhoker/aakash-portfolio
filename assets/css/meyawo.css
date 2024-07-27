@@ -11142,6 +11142,10 @@ p {
 
 .service-card .body {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-card .body img.icon {
