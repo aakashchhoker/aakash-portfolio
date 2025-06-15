@@ -25,8 +25,10 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" >
 
 
+  
+
     <!-- page header -->
-     <div class="bg-[#111] text-white font-['Nunito']">
+     <div class="bg-[#111] text-white font-['Nunito']" id="home">
         <section class="flex flex-col justify-between h-screen" class="bg-[#111] text-white font-['Nunito']">
             <header class="z-10 pointer-events-none flex items-center justify-between w-full px-4 mt-4 max-w-screen-xl mx-auto">
               <svg width="70" height="70" viewBox="0 0 406 368" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +96,7 @@
                     Aakash Chhoker
                   </h1>
                   <p class="pointer-events-none font-['Merriweather'] italic my-4 md:my-8" style="color: #FFFFFF;">
-                    Frontend Developer
+                    Software Engineer
                   </p>
                   <a href="#about"
                     class="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">
@@ -108,13 +110,13 @@
                       class="absolute top-1/2 -translate-y-1/2 -right-7 group-hover:-right-8 ease-in-out duration-100">
                       <g transform="translate(0,-952.36218)">
                         <path style="
-                              text-indent: 0;
-                              text-transform: none;
+                              textIndent: 0;
+                              textTransform: none;
                               direction: ltr;
-                              block-progression: tb;
-                              baseline-shift: baseline;
+                              blockProgression: tb;
+                              baselineShift: baseline;
                               color: #000000;
-                              enable-background: accumulate;
+                              enableBackground: accumulate;
                             "
                           d="m 88.999835,1002.3621 c 0,-0.4628 -0.2799,-1.0773 -0.5639,-1.3755 l -15.9997,-17.00026 c -0.747,-0.7723 -1.9572,-0.8618 -2.8281,-0.078 -0.7786,0.7007 -0.798,2.0673 -0.078,2.8282 l 12.8435,13.62516 -69.37347,0 c -1.1046,0 -2,0.8954 -2,2 0,1.1046 0.8954,2.0001 2,2.0001 l 69.37347,0 -12.8435,13.6252 c -0.7199,0.7608 -0.6688,2.0938 0.078,2.8281 0.7885,0.7752 2.0925,0.7062 2.8281,-0.078 l 15.9997,-17.0002 c 0.4701,-0.4611 0.556,-0.9052 0.5639,-1.3748 z"
                           fill="#fff" fill-opacity="1" stroke="white" stroke-width="2" marker="none" visibility="visible"
@@ -190,46 +192,148 @@
     <!-- end of page header -->
 
     <!-- about section -->
-    <section class="section pt-0" id="about" style="margin-top: 20px;">
+    <section class="section pt-0 mt-[120px]" id="about">
         <!-- container -->
         <div class="container text-center">
             <!-- about wrapper -->
-            <div class="about">
+            <div class="about" style="margin-top: 120px;">
                 <div class="about-img-holder">
-                    <img src="assets/imgs/man.png" class="about-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <img src="assets/imgs/4300580.jpg" class="about-img" alt="Aakash Chhoker's Profile">
                 </div>
                 <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
+                    <p class="section-subtitle">Who Am I?</p>
                     <h2 class="section-title mb-3">About Me</h2>
                     <p>
-                        Hello, I'm Aakash Chhoker, a Software Engineer with a passion for crafting engaging user
-                        experiences. With a solid foundation in React, React Native, EelectronJS and REST APIs, I
-                        specialize in building intuitive and responsive web and mobile applications.
-
-                        I have a keen eye for detail and strive to create visually appealing interfaces that not only
-                        look great but also provide seamless functionality. I enjoy collaborating with cross-functional
-                        teams to transform ideas and concepts into polished, user-friendly products.
-
-                        Throughout my career, I have honed my skills in front-end development, leveraging the power of
-                        React and React Native to create reusable components and deliver exceptional user interfaces.
-                        Additionally, my knowledge of REST APIs enables me to seamlessly integrate applications with
-                        backend systems, ensuring efficient data communication and retrieval.
-
-                        I am constantly keeping up with the latest industry trends and technologies to enhance my skill
-                        set and deliver cutting-edge solutions. I am a proactive learner and thrive in dynamic,
-                        fast-paced environments that challenge me to push the boundaries of what's possible.
-
-                        I'm excited about the opportunity to collaborate on innovative projects and contribute my
-                        expertise to create exceptional digital experiences. Feel free to connect with me if you'd like
-                        to discuss potential collaborations or have any questions related to front-end development.
+                        I'm a passionate full-stack developer with expertise in React, React Native, Electron, and WordPress. With a strong foundation in both front-end and back-end technologies, I create seamless, responsive, and user-friendly applications that solve real-world problems.                        
                     </p>
-                    <a href="assets/cv/AAKASH--CV.pdf" download="AAKASH--CV.pdf"
-                        class="btn-rounded btn btn-outline-primary mt-4">Download CV</a>
+                    <p>
+                        My development journey has led me to work on diverse projects ranging from interactive web applications to content-rich WordPress sites that handle high traffic volumes. I take pride in delivering clean, maintainable code with attention to performance optimization and SEO best practices.
+                    </p>
+                    <p>
+                        When I'm not coding, I enjoy staying updated with the latest tech trends and contributing to the developer community through knowledge sharing and mentorship.
+                    </p>
+                    <a href="#contact" class="btn-rounded btn btn-outline-primary mt-4">Let's Work Together</a>
+                    <a href="#" class="btn-rounded btn btn-primary mt-4 ml-3">Download CV</a>
                 </div>
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
     </section> <!-- end of about section -->
+    
+    
+    <!-- Floating WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=9555145181&text=Hi!%20I%27m%20interested%20in%20your%20services." class="floating-contact" target="_blank">
+        <i class="ti-whatsapp"></i> Chat with me
+    </a>
+    <!-- Skills section -->
+    <section class="section bg-custom-gray" id="skills">
+        <div class="container">
+            <h1 class="section-title mb-3 text-center">My Skills</h1>
+            <p class="section-subtitle text-center mb-5">Technologies I work with</p>
+            
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card p-4 shadow-sm rounded h-100">
+                        <div class="mb-3">
+                            <i class="ti-html5 text-primary" style="font-size: 2.5rem;"></i>
+                        </div>
+                        <h5>Frontend</h5>
+                        <p>React, HTML5, CSS3, JavaScript, Tailwind CSS, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card p-4 shadow-sm rounded h-100">
+                        <div class="mb-3">
+                            <i class="ti-server text-primary" style="font-size: 2.5rem;"></i>
+                        </div>
+                        <h5>Backend</h5>
+                        <p>Node.js, Express, Python, PHP, RESTful APIs</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card p-4 shadow-sm rounded h-100">
+                        <div class="mb-3">
+                            <i class="ti-mobile text-primary" style="font-size: 2.5rem;"></i>
+                        </div>
+                        <h5>Mobile</h5>
+                        <p>React Native, Expo, iOS & Android Development</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card p-4 shadow-sm rounded h-100">
+                        <div class="mb-3">
+                            <i class="ti-wordpress text-primary" style="font-size: 2.5rem;"></i>
+                        </div>
+                        <h5>WordPress</h5>
+                        <p>Custom Themes, Plugins, WooCommerce, Performance Optimization</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- progress bars -->
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h5 class="mb-4">Development Skills</h5>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <p>React/React Native</p>
+                            <p>95%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <p>JavaScript/TypeScript</p>
+                            <p>90%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <p>WordPress Development</p>
+                            <p>85%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="mb-4">Design & Other Skills</h5>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <p>UI/UX Design</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <p>Database Management</p>
+                            <p>85%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <p>DevOps & Deployment</p>
+                            <p>75%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- service section -->
     <section class="section" id="service">
@@ -379,83 +483,7 @@
         </div><!-- end of container -->
     </section> <!-- end of portfolio section -->
 
-    <!-- pricing section -->
-    <!-- <section class="section" id="pricing">
-        <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Free</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>0.00/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>9.99/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p>inventore omnis</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>99.9/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-
-            </div>
-        </div> 
-    </section> -->
-    <!-- end of pricing section -->
+   
 
     <!-- section -->
     <section class="section-sm bg-primary">
@@ -475,129 +503,253 @@
         </div> <!-- end of container -->
     </section> <!-- end of section -->
 
-    <!-- testimonial section -->
-    <!-- <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
 
+    <!-- WordPress Projects section -->
+    <section class="section" id="wordpress">
+        <div class="container">
+            <h6 class="section-title text-center mb-0">WordPress Projects</h6>
+            <h6 class="section-subtitle mb-5 text-center">Showcasing my WordPress development expertise</h6>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 mb-4">
+                        <img src="https://smartjoylearning.com/wp-content/uploads/2025/05/SmartJoy_Learning_3D_Logo_Clean.png" alt="Smart Joy Learning" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h6 class="card-title">Smart Joy Learning</h6>
+                            <p>Educational website with interactive learning resources and course management.</p>
+                            <a href="https://smartjoylearning.com/" class="btn btn-primary btn-sm" target="_blank">Visit Website</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 mb-4">
+                        <img src="https://truewaysinternational.ca/wp-content/uploads/2017/04/logo-dark.png" alt="Trueways International" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h6 class="card-title">Trueways International</h6>
+                            <p>Canadian international business and consulting services website.</p>
+                            <a href="https://truewaysinternational.ca/" class="btn btn-primary btn-sm" target="_blank">Visit Website</a>
                         </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 mb-4">
+                        <img src="https://goyalsonlinebooks.com/wp-content/uploads/2021/08/Logo-with-updated-colors-png.png" alt="Goyals Online Books" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h6 class="card-title">Goyals Online Books</h6>
+                            <p>E-commerce book store with integrated payment system and inventory management.</p>
+                            <a href="https://goyalsonlinebooks.com/" class="btn btn-primary btn-sm" target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 mb-4">
+                        <img src="https://i.ibb.co/mrBR4Q6n/Screenshot-2025-06-15-at-4-36-05-PM.png" alt="Inside Sport" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h6 class="card-title">Inside Sport</h6>
+                            <p>Sports news and media platform with high-traffic handling capability.</p>
+                            <a href="https://www.insidesport.in/" class="btn btn-primary btn-sm" target="_blank">Visit Website</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
-    </section>  -->
-
-    <!-- blog section -->
-    <!-- <section class="section" id="blog">
-        <div class="container text-center">
-            <p class="section-subtitle">Recent Posts?</p>
-            <h6 class="section-title mb-6">Blog</h6>
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-1.jpg" class="blog-card-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
-
-                        <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit
-                            delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium
-                            neque numquam mollitia modi quasi distinctio.</p>
-
-                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
-                        </p>
-                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
-                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
+            <div class="text-center mt-5">
+                <a href="https://api.whatsapp.com/send?phone=9555145181&text=Hi!%20I%27m%20interested%20in%20building%20a%20website%20with%20you." class="btn btn-primary btn-lg" target="_blank"><i class="ti-comment-alt mr-2"></i>Start a WordPress Project with Me</a>
             </div>
-
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-2.jpg" class="blog-card-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Explicabo illo</h6>
-
-                        <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
-                        </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
-                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
-                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto
-                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?
-                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non
-                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus
-                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div>
-
         </div>
-    </section> -->
-    <!-- end of blog section -->
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="section bg-light" id="testimonials">
+        <div class="container">
+            <h6 class="section-title text-center mb-0">Testimonials</h6>
+            <h6 class="section-subtitle mb-5 text-center">What clients say about my work</h6>
+            <div class="row">
+                <div class="col-md-4 my-3">
+                    <div class="card testimonial-card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="avatar-container mr-3">
+                                    <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Client" class="rounded-circle" width="60">
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Robert Chen</h6>
+                                    <small class="text-muted">CEO, TechFusion</small>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                <i class="ti-quote-left text-primary mr-2"></i>
+                                Aakash delivered our React Native app on time and with exceptional quality. His attention to detail and responsive design work exceeded our expectations.
+                            </p>
+                            <div class="text-warning">
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card testimonial-card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="avatar-container mr-3">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client" class="rounded-circle" width="60">
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Sarah Johnson</h6>
+                                    <small class="text-muted">Marketing Director, EduSmart</small>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                <i class="ti-quote-left text-primary mr-2"></i>
+                                The WordPress site Aakash created for our educational platform is stunning and performs beautifully. His optimization skills significantly improved our site speed and SEO ranking.
+                            </p>
+                            <div class="text-warning">
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card testimonial-card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="avatar-container mr-3">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="rounded-circle" width="60">
+                                </div>
+                                <div>
+                                    <h6 class="mb-0">Michael Garcia</h6>
+                                    <small class="text-muted">CTO, InnovateTech</small>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                <i class="ti-quote-left text-primary mr-2"></i>
+                                Working with Aakash was a pleasure. His technical expertise in Electron.js helped us create a cross-platform desktop application that seamlessly integrates with our existing systems.
+                            </p>
+                            <div class="text-warning">
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star"></i>
+                                <i class="ti-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- contact section -->
     <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Let's Connect</p>
+                <h6 class="section-title">Contact Me</h6>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-info p-4 shadow-sm rounded mb-4">
+                        <h5 class="mb-4">Get In Touch</h5>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon mr-3">
+                                <i class="ti-mobile text-primary" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <div>
+                                <h6>Phone</h6>
+                                <p><a href="tel:9555145181" class="text-muted">+91 95551 45181</a></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon mr-3">
+                                <i class="ti-email text-primary" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <div>
+                                <h6>Email</h6>
+                                <p><a href="mailto:chhoker751@gmail.com" class="text-muted">chhoker751@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon mr-3">
+                                <i class="ti-location-pin text-primary" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <div>
+                                <h6>Location</h6>
+                                <p class="text-muted">Delhi NCR, India</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" requried>
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6" class="form-control"
-                            placeholder="Write Something"></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    
+                    <div class="social-links-contact mt-4 mb-4">
+                        <h5 class="mb-3">Follow Me</h5>
+                        <div class="d-flex">
+                            <a href="https://twitter.com/chhoker_akash" class="btn btn-outline-primary rounded-circle mr-2" target="_blank"><i class="ti-twitter-alt"></i></a>
+                            <a href="mailto:chhoker751@gmail.com" class="btn btn-outline-primary rounded-circle mr-2" target="_blank"><i class="ti-google"></i></a>
+                            <a href="https://www.instagram.com/aakashchhoker/" class="btn btn-outline-primary rounded-circle mr-2" target="_blank"><i class="ti-instagram"></i></a>
+                            <a href="https://github.com/aakashchhoker" class="btn btn-outline-primary rounded-circle mr-2" target="_blank"><i class="ti-github"></i></a>
+                            <a href="https://www.linkedin.com/in/aakashchhoker/" class="btn btn-outline-primary rounded-circle" target="_blank"><i class="ti-linkedin"></i></a>
+                        </div>
                     </div>
                 </div>
-            </form><!-- end of contact form -->
+                
+                <div class="col-lg-7">
+                    <!-- contact form -->
+                    <form id="whatsappContactForm" class="contact-form shadow-sm p-5 rounded">
+                        <h5 class="mb-4">Send Me A Message</h5>
+                        <div class="form-row">
+                            <div class="form-group col-sm-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group col-sm-12">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" placeholder="Project Inquiry" required>
+                            </div>
+                            <div class="form-group col-sm-12">
+                                <label for="message">Your Message</label>
+                                <textarea name="message" id="message" rows="5" class="form-control"
+                                    placeholder="Tell me about your project or inquiry..." required></textarea>
+                            </div>
+                            <div class="form-group col-sm-12 mt-3">
+                                <button type="submit" class="btn btn-primary rounded">
+                                    <i class="ti-whatsapp mr-2"></i>Send via WhatsApp
+                                </button>
+                            </div>
+                        </div>
+                    </form><!-- end of contact form -->
+                    
+                    <script>
+                        document.getElementById('whatsappContactForm').addEventListener('submit', function(e) {
+                            e.preventDefault(); // Prevent default form submission
+                            
+                            // Get form data
+                            const name = document.getElementById('name').value.trim();
+                            const email = document.getElementById('email').value.trim();
+                            const subject = document.getElementById('subject').value.trim();
+                            const message = document.getElementById('message').value.trim();
+                            
+                            // Format WhatsApp message
+                            const whatsappMessage = `*New Contact Form Submission*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Subject:* ${subject}%0A*Message:* ${message}`;
+                            
+                            // Create WhatsApp URL
+                            const whatsappURL = `https://api.whatsapp.com/send?phone=9555145181&text=${whatsappMessage}`;
+                            
+                            // Open WhatsApp in a new tab
+                            window.open(whatsappURL, '_blank');
+                        });
+                    </script>
+                </div>
+            </div>
         </div><!-- end of container -->
     </section><!-- end of contact section -->
 
